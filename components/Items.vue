@@ -27,14 +27,41 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
+    <div>
+      <Joke v-for="joke in jokes" v-bind:key="joke.id" :id="joke.id" :joke="joke.joke" />
+    </div>
 
   </main>
 </template>
 
 <script>
+import axios from "axios"
+import Joke from './Joke'
   export default {
     name: 'Pantry',
+    data() {
+      return{
+        jokes: []
+      }
+    },
+    async created() {
+      const config = {
+        headers: {
+          'Accept': 'application/json'
+        }
+      }
+      try {
+        const res = await axios.get('https://icanhazdadjoke.com/search', config);
+        // const res = await axios.get('https://edamam-edamam-nutrition-analysis.p.rapidapi.com/api/nutrition-data', config);
+
+        this.jokes = res.data.results;
+        console.log(res.data);
+      }catch (err) {
+        console.log(err);
+      }
+    }
   }
+
 </script>
 
 <style scoped lang="scss">
