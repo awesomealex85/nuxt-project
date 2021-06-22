@@ -5,6 +5,6 @@
   </div>
 </template>
 
-<script>
+<script lang="scss">
 
 </script>

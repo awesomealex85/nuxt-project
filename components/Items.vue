@@ -37,7 +37,7 @@
   }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 /* nav{
   background: #083d5d;
 } */

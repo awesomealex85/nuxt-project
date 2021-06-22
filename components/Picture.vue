@@ -34,7 +34,7 @@
 
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
   .borderToggle {
     padding: 0.5rem;
     background-color: #fff;

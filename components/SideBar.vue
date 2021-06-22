@@ -25,9 +25,6 @@
   }
 </script>
 
-<style scoped>
-/* nav{
-  background: #083d5d;
-} */
+<style lang="scss">
 
 </style>

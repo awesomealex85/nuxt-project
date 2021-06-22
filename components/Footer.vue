@@ -34,42 +34,6 @@
   }
 </script>
 
-<style scoped>
-/* footer {
-  background: #083d5d;
-}
-footer img {
-    width: 24rem;
-}
-
-.nav {
-  background: $salvablue;
-  display: flex;
-  justify-content:space-around;
-  width: 100%;
-  padding: 2rem 1rem;
-  flex-wrap: wrap;
-  & ul {
-    width: 100%;
-    flex-direction: row;
-    & li {
-      padding: 2em;
-    }
-  }
-  &__list {
-    display: flex;
-    justify-content: space-around;
-    padding: 0;
-    margin: 0 auto;
-    list-style: none;
-    text-align: center;
-  }
-  &__item {
-    display: inline-block;
-  }
-  &__link {
-  color: $white;
-  }
-} */
+<style lang="scss">
 
 </style>
