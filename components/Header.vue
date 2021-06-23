@@ -31,16 +31,6 @@
 
 header {
   background-image: url("../assets/el-salvador-playa-02.jpeg");
-  /* background-repeat: no-repeat;
-  background-position: center;
-  overflow: hidden;
-  background-size: cover;
-  box-sizing: border-box;
-  flex-direction: row;
-  padding-left: 5em;
-  padding-top: 5rem;
-  padding-bottom: 8rem;
-  padding-right: 5rem; */
 }
 img {
   width: 15em;

@@ -52,8 +52,6 @@ import Joke from './Joke'
       }
       try {
         const res = await axios.get('https://icanhazdadjoke.com/search', config);
-        // const res = await axios.get('https://edamam-edamam-nutrition-analysis.p.rapidapi.com/api/nutrition-data', config);
-
         this.jokes = res.data.results;
         console.log(res.data);
       }catch (err) {
@@ -65,8 +63,5 @@ import Joke from './Joke'
 </script>
 
 <style scoped lang="scss">
-/* nav{
-  background: #083d5d;
-} */
 
 </style>
