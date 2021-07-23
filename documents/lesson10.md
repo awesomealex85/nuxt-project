@@ -1,0 +1,9 @@
+-	In the `documents` folder you created, create a `.md` file and include within what you learned about SEO & analytics (1-2 paragraphs).
+
+SEO (Search Engine Optimization) is the method of getting search engines like google to rank higher than other web sites. People often try to fool the search engines ranking system so the algorithms are often changed to prevent such manipulations. SEO start by looking at the H1 and work their way down to H6 tags. Adding ghost pages or hidden text can ding your SEO score so you shouldn't try to cheat the system. Having link backs to legitimate sites can increase your SEO score.
+
+Using Mozlow's Hierarchy of SEO needs can help be successful in your SEO. SEO is about understanding what users are seeking, know what your audience wants is important in connecting you with your users by allowing you to provide what they need. Search engine send crawlers all over the internet to process and index all available content on the internet and ordering it to best match it with user queries to help user find what they are looking for. Users prefer organic search results over the paid results at the top as they receive significantly more clicks the the paid ad links.
+
+-	Include another section with how you would ideally implement SEO on your site (for our purposes we will add some light metadata -- this would be if you had plenty of time to fully implement the metadata that you'd like)
+
+Use nuxt to help with SEO, by handling the head elements on all the pages. Setup the default meta tags for all pages in the nuxt.config.js file. Then you can setup individual tags for each of your pages using the head method. Implement usage of hid to eliminate duplicate tags so the SEO score doesn't get dinged. Ensure that H1 tag is utilizes appropriately to engage with what users are searching for. Will need to ensure our content includes keywords that users are looking for. 
